@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leitor de Revista — Melhorado</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+
+<header>
+  <button onclick="window.location.href='index.html'" class="back">← Voltar</button>
+  <h1 id="magTitle">Carregando...</h1>
+</header>
+
+<main class="container">
+  <div id="content" class="reader-content">
+    <p class="loading">Carregando conteúdo do PDF... (execute via servidor HTTP, ex: <code>python -m http.server</code>)</p>
+  </div>
+</main>
+<script src="js/revista.js"></script>
+
+</body>
+</html>

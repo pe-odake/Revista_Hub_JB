@@ -1,0 +1,44 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  background: #0b132b;
+  color: #e6eef6;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 16px;
+  background: #1f2a44;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.2em;
+}
+.back {
+  padding: 8px 12px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.container {
+  padding: 24px;
+}
+.reader-content {
+  background: #071227;
+  padding: 24px;
+  border-radius: 12px;
+  color: #e6eef6;
+}
+.reader-content p {
+  margin-bottom: 1em;
+  line-height: 1.7;
+  text-align: justify;
+}
+.loading {
+  color: #9aa4b2;
+}
+.err {
+  color: #ffb4b4;
+}
