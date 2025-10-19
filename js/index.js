@@ -1,24 +1,21 @@
 const MAGAZINES = [
   {
-    id: 'm1',
-    title: 'Design & Future',
-    issue: 'Vol. 13 — Out 2025',
-    cover: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200&q=80',
-    description: 'Tendências em design e experiências humanas.',
-    pdf: 'revistas/lorem1.pdf'
+    id: '1',
+    title: 'Integrar para não entregar violência e resistência dos povos indígenas na ditadura militar',
+    cover: 'img/grupo1.jpg',
+    description: 'Revista Grupo 1',
+    pdf: 'revistas/grupo1.pdf'
   },
   {
-    id: 'm2',
-    title: 'Ciência Hoje',
-    issue: 'Vol. 40 — Set 2025',
-    cover: 'https://images.unsplash.com/photo-1509228627159-645a6f8b8f0f?w=1200&q=80',
-    description: 'Descobertas recentes em tecnologia e ciência.',
-    pdf: 'revistas/lorem1.pdf'
+    id: '2',
+    title: 'Movimento Negro Unificado Luta, resistência e conquista por igualdade racial no Brasil',
+    cover: 'img/grupo2.jpg',
+    description: 'Revista Grupo 2',
+    pdf: 'revistas/grupo2.pdf'
   },
   {
-    id: 'teste',
+    id: '3',
     title: 'teste',
-    issue: 'teste',
     cover: 'teste',
     description: 'teste',
     pdf: 'revistas/teste_paragrafos.pdf'
@@ -33,7 +30,6 @@ MAGAZINES.forEach(m => {
     <div class="card-content">
       <h3>${m.title}</h3>
       <p>${m.description}</p>
-      <small>${m.issue}</small><br>
       <button onclick="openMagazine('${m.id}')">Ler</button>
     </div>
   `;

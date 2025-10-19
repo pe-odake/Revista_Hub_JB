@@ -3,8 +3,8 @@ pdfjsLib.GlobalWorkerOptions.workerSrc =
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
 // Lista de revistas
 const MAGAZINES = {
-  "m1": { title: "Design & Future", pdf: "revistas/lorem1.pdf" },
-  "m2": { title: "Ciência Hoje",    pdf: "revistas/lorem1.pdf" },
+  "1": { title: "Integrar para não entregar violência e resistência dos povos indígenas na ditadura militar", pdf: "revistas/grupo1.pdf" },
+  "2": { title: "Movimento Negro Unificado Luta, resistência e conquista por igualdade racial no Brasil", pdf: 'revistas/grupo2.pdf' },
   "teste": { title: "PDF de Teste", pdf: "revistas/teste_paragrafos.pdf" }
 };
 const params = new URLSearchParams(window.location.search);
